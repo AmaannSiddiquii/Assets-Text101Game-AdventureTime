@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3ba7344be076f429acdca4cc458792, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  storyText: 'You see a group of Hyenas, they seem to not be paying attention to
+    you
+
+
+    What do you do?
+
+
+    1. Ignore them and search for an exit
+
+    2.
+    Try to fight the hyenas as you feel lonely.'
+  nextStates:
+  - {fileID: 11400000, guid: 43544e7e202f0284eb6b5eefeb55292c, type: 2}
+  - {fileID: 11400000, guid: b94a13a9d530a5d43a40007616968a8b, type: 2}
